@@ -58,3 +58,14 @@ $(document).ready(function(){
 /* end dot nav */
 });
 
+/* Make navbar fade in on scroll*/
+$(document).ready(function(){                    
+    $(window).scroll(function(){                          
+        if ($(this).scrollTop() > 500) {
+            $('.navbar').fadeIn(200);
+        } else {
+            $('.navbar').fadeOut(200);
+        }
+    });
+});
+

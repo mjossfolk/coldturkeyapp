@@ -23,7 +23,7 @@
         <![endif]-->
 
     <!-- Header Bar and Store -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -32,82 +32,85 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Cold Turkey</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" role="form">
-            <button type="submit" class="btn btn-success">Sign in</button>
+            <button type="button" class="btn btn-success">Sign in</button>
           </form>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
 
+
+
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron" >
-        <div class="container">
+        
             <section id="home">
-                <div class = "row">
+                <article>
+                    <div class = "row">
 
-                    <!--Contains main content-->
-                    <div class = "col-md-6">
-                        <img src="http://placehold.it/150x150" class = "logo"/>
-                        <h2>Stop Smoking Cold Turkey</h2>
-                        <p>Quit Smoking. Made Simple.</p>
-                        <p><a class="btn btn-primary btn-lg" href="#" role="button">Download</a></p>
+                        <!--Contains main content-->
+                        <div class = "col-md-6">
+                            <img src="http://placehold.it/150x150" class = "logo"/>
+                            <h2>Stop Smoking Cold Turkey</h2>
+                            <p>Quit Smoking. Made Simple.</p>
+                            <a href ="http://www.w3schools.com"><img src="http://placehold.it/150X50" class = "logo"/></a>
+                        </div>
+
+                        <!-- Displays Progress screen on mobile device -->
+                        <div class = "col-md-6">
+                                <img src = "http://placehold.it/350x350" class = "progess-screen"/>
+                        
+                        </div>
+
                     </div>
-
-                    <!-- Displays Progress screen on mobile device -->
-                    <div class = "col-md-6">
-                        <img src = "http://placehold.it/350x350" class = "progess-screen"/>
-                    </div>
-
-                </div>
-            </section>
-        </div>
-    </div><!--End of Jumbotron -->
+                </article>
+            </section><!--End of Jumbotron -->
 
     <!-- Health Progress Section -->
-    <div class = "health">
-        <div class = "container">
-            <section id="changes">
+        <section id="health">
+            <article>
+
                 <img src = "http://placehold.it/350x350"/>
                 <h3> Watch How Quickly Your Health Changes </h3>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum ligula id felis posuere, ut gravida ante malesuada. Cras consequat mattis malesuada. Praesent enim nibh, porta sed auctor sit amet, egestas in est. Vestibulum accumsan in ligula quis ornare.</p>
-            </section>
-        </div>
-    </div><!-- End of Health Progress Section -->
+
+            </article>
+        </section><!-- End of Health Progress Section -->
 
     <!-- Money Saving Section -->
-    <div class = "savings">
-        <div class = "container">
-            <section id="money">
+        <section id="savings">
+            <article>
                 <div class = "row">
+                    
                     <!-- Displays money saving icon or screen -->
                     <div class = "col-md-6">
                         <img src="http://placehold.it/350x350"/>
                     </div>
                     <!-- Contains content about Saving with App -->
                     <div class = "col-md-6">
-                        <h3>Check Out How Much Money You Have Saved</h3>
+                        <h3>See How Much You Are Saving</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum ligula id felis posuere, ut gravida ante malesuada. Cras consequat mattis malesuada. Praesent enim nibh, porta sed auctor sit amet, egestas in est. Vestibulum accumsan in ligula quis ornare.</p>
                     </div>
 
                 </div>
-            </section>
-        </div>
-    </div><!-- End of Money Savings Section -->
+            </article>
+        </section><!-- End of Money Savings Section -->
 
     <!--Tracking and Location Service Section -->
-    <div class = "tracking">
-        <div class = "container">
-            <section id="locations">
+        <section id="locations">
+            <article>
+                
                 <img src = "http://placehold.it/350x350"/>
                 <h3> Track Cravings, including Locations.</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum ligula id felis posuere, ut gravida ante malesuada. Cras consequat mattis malesuada. Praesent enim nibh, porta sed auctor sit amet, egestas in est. Vestibulum accumsan in ligula quis ornare.</p>
-            </section>
-        </div>
+
+            </article>
+        </section>
     </div>
 
+    
 
 
       <footer>
@@ -116,13 +119,13 @@
 
     <div data-spy="affix" id="dot-nav">
         <ul>
-            <li class="awesome-tooltip active" title="Home"><a href="#home"></a></li>
-            <li class="awesome-tooltip" title="Health"><a href="#changes"></a></li>
-            <li class="awesome-tooltip" title="Savings"><a href="#money"></a></li>
-            <li class="awesome-tooltip" title="Tracking"><a href="#locations"></a></li>
+            <li class="awesome-tooltip active" ><a href="#home"></a></li>
+            <li class="awesome-tooltip" ><a href="#health"></a></li>
+            <li class="awesome-tooltip" ><a href="#savings"></a></li>
+            <li class="awesome-tooltip" ><a href="#locations"></a></li>
         </ul>
+    
     </div>
-
 
 
 
@@ -143,5 +146,7 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+
+
     </body>
 </html>
