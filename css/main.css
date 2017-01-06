@@ -47,6 +47,11 @@ body {
   background-color: #F8F8F8
 }
 
+section{
+  height: 100%;
+  padding: 13% 0;
+}
+
 #dot-nav{
   right: 10px;
   top: 50%;
