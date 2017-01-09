@@ -8,7 +8,8 @@
 
 body, html {
     height: 100%; 
-    font-family: "Lucida Sans"; 
+    font-family: "Antic Didone", serif; 
+  
 }
 
 .navbar{
@@ -21,31 +22,58 @@ body, html {
   display: none;
 }
 
+#navbar{
+  padding-top: 10px;
+}
+
+
 .navbar-brand{
   color: #1ABC9C;
   font-size: 30px;
 }
 
-
 section {
-  height: 100%;
+  height: 650px;
   padding: 90px 45px;
 }
 
 #home{
-  padding: 120px;
-  background-color: #FFFFFF;
+  height: 100%;
+  padding-top: 110px;
+  background-color: #FDBD57;
 }
 
-
-#health, #locations{
+#health{
+  background-color: #E1615D;
   text-align: center;
-  background-color: #F8F8F8;
-}
-#savings{
-  background-color: #FFFFFF;
 }
 
+#savings{
+  background-color: #41A9CC;
+}
+
+
+#savings article img{
+  padding: 60px 60px;
+}
+
+#savings article h3{
+  padding: 120px 0 0 60px;
+}
+
+#savings article p{
+  padding: 0 60px;
+}
+
+#locations{
+  background-color: #8A63B3;
+  text-align: center;
+}
+
+footer{
+  background-color: #F8F8F8;
+  overflow: hidden;
+}
 
 #dot-nav{    
   right: 10px;
@@ -60,6 +88,7 @@ section {
   margin:0;
   padding: 0;
 }
+
 #dot-nav li {
   position: relative;
   background-color: #bdc3c7;
@@ -72,6 +101,7 @@ section {
   width: 10px;
   vertical-align:bottom;
 }
+
 #dot-nav li.active, #dot-nav li:hover {
   background-color: #1ABC9C;
 }
@@ -83,11 +113,13 @@ section {
   position: relative;
   top:-5px;
 }
+
 .awesome-tooltip + .tooltip > .tooltip-inner {
     background-color: #1ABC9C; 
     color: #f5f5f5; 
     border: 1px solid #1ABC9C; 
 }
+
 .awesome-tooltip + .tooltip.left > .tooltip-arrow{
     top:50%;
     right:0;
@@ -96,3 +128,4 @@ section {
     border-bottom:5px solid transparent;
     border-left:5px solid #1ABC9C;
 }
+
