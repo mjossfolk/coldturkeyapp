@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" type="text/css"
-      href="https://fonts.googleapis.com/css?family=Antic+Didone">
+      href="https://fonts.googleapis.com/css?family=Varela+Round">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -34,10 +34,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Cold Turkey</a>
+          <a class="navbar-brand" href="#home">Quit Smoking Now</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-            <a href ="http://www.w3schools.com" class="navbar-nav pull-right"><img src="http://placehold.it/150X50"/></a>
+            <a href ="https://itunes.apple.com/app/id1192387533" class="navbar-nav pull-right img-responsive"><img src="img/apple-download.png" height="47.5" width="140"/></a>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
@@ -45,23 +45,22 @@
 
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-        
-            <section id="home">
-                <article>
-                    <div class = "row">
+
+            <section id="home" class="vertical-align">
+                <article class="container">
+                    <div class ="row">
 
                         <!--Contains main content-->
-                        <div class = "col-md-6">
-                            <img src="http://placehold.it/150x150" class = "logo"/>
-                            <h2><strong>Stop Smoking Cold Turkey</strong></h2>
-                            <h4>Quit Smoking. Made Simple.</h4>
-                            <a href ="http://www.w3schools.com"><img src="http://placehold.it/150X50"/></a>
+                        <div class ="col-md-4">
+                            <img src="img/app-icon.png" height="150" width="150" class = "logo img-responsive center-block"/>
+                            <h1 class="text-center">Quit Smoking Now</h1>
+                            <p class="text-center">An easy way to quit smoking. Track your progress and financial savings, see real time health benfits and manage cravings.</p>
+                            <a href ="https://itunes.apple.com/app/id1192387533"><img src="img/apple-download.png" class = "img-responsive center-block" height="50%" width="50%" /></a>
                         </div>
 
                         <!-- Displays Progress screen on mobile device -->
-                        <div class = "col-md-6">
-                                <img src = "http://placehold.it/350x350" class = "progess-screen"/>
-                        
+                        <div class = "col-md-6 col-md-offset-2">
+                                <img src = "img/hero-img.png" class = "img-responsive center-block"/>
                         </div>
 
                     </div>
@@ -69,29 +68,59 @@
             </section><!--End of Jumbotron -->
 
     <!-- Health Progress Section -->
-        <section id="health">
-            <article>
-
-                <img src = "http://placehold.it/350x350"/>
-                <h3><strong>Watch How Quickly Your Health Changes</strong></h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum ligula id felis posuere, ut gravida ante malesuada. Cras consequat mattis malesuada. Praesent enim nibh, porta sed auctor sit amet, egestas in est. Vestibulum accumsan in ligula quis ornare.</p>
-
+        <section class="health-section vertical-align" id="health">
+            <article class="container">
+              <div class="row">
+                <div class="col-md-5">
+                  <h2 class="text-center">Understand How Your <br>Health Changes</h2>
+                  <p class="text-center">Live updates on how your health is effected over time when you quit smoking. This helps you see the benfits of quitting every step of the way.</p>
+                </div>
+              </div>
             </article>
         </section><!-- End of Health Progress Section -->
 
     <!-- Money Saving Section -->
-        <section id="savings">
-            <article>
+        <section id="savings" class="vertical-align">
+            <article class="container ">
                 <div class = "row">
-                    
+
                     <!-- Displays money saving icon or screen -->
-                    <div class = "col-md-6">
-                        <img src="http://placehold.it/350x350"/>
+                    <div class ="col-md-6">
+                        <img src="img/iphone-savings.png" height="50%" width="50%" class="img-responsive center-block" />
                     </div>
                     <!-- Contains content about Saving with App -->
-                    <div class = "col-md-6">
-                        <h3>See How Much You Are Saving</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum ligula id felis posuere, ut gravida ante malesuada. Cras consequat mattis malesuada. Praesent enim nibh, porta sed auctor sit amet, egestas in est. Vestibulum accumsan in ligula quis ornare.</p>
+                    <div class ="col-md-6">
+
+                        <h2 class="text-center">Reward yourself with your savings</h2>
+
+                          <ul class="media-list">
+                            <li class="media">
+                              <div class="media-left">
+                                  <img class="media-object img-responsive save-images" src="img/real-time-icon.png" alt="...">
+                              </div>
+                              <div class="media-body media-middle">
+                                <p>Real time updates on how much you have saved from quitting</p>
+                              </div>
+                            </li>
+
+                            <li class="media">
+                              <div class="media-left">
+                                  <img class="media-object img-responsive save-images" src="img/goal-icon.png" alt="...">
+                              </div>
+                              <div class="media-body media-middle">
+                                <p>Create goals like a down payment for a car or a new pair of shoes</p>
+                              </div>
+                            </li>
+
+                            <li class="media">
+                              <div class="media-left">
+                                  <img class="media-object img-responsive save-images" src="img/save-icon.png" alt="...">
+                              </div>
+                              <div class="media-body media-middle">
+                                <p>Allocate savings to each goal and see how long before you can afford it</p>
+                              </div>
+                            </li>
+                          </ul>
                     </div>
 
                 </div>
@@ -99,22 +128,32 @@
         </section><!-- End of Money Savings Section -->
 
     <!--Tracking and Location Service Section -->
-        <section id="locations">
-            <article>
-                
-                <img src = "http://placehold.it/350x350"/>
-                <h3><strong>Track Cravings, including Locations.</strong></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum ligula id felis posuere, ut gravida ante malesuada. Cras consequat mattis malesuada. Praesent enim nibh, porta sed auctor sit amet, egestas in est. Vestibulum accumsan in ligula quis ornare.</p>
+        <section id="locations" class="vertical-align">
+            <article class="container">
+            <div class="row">
+            <div class="col-md-6">
+            <img src = "img/cravings.png" height="75%" width="75%" class="img-responsive center-block"/>
+            </div>
+            <div class="col-md-6">
 
+                <h3 class="text-center"><strong>Track Cravings, including Locations.</strong></h3>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum ligula id felis posuere, ut gravida ante malesuada. Cras consequat mattis malesuada. Praesent enim nibh, porta sed auctor sit amet, egestas in est. Vestibulum accumsan in ligula quis ornare.</p>
+</div></div>
             </article>
         </section>
     </div>
 
-    
+
 
 
       <footer>
-        <p>&copy; Cold Turkey 2017</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>&copy; Cold Turkey 2017</p>
+            </div>
+          </div>
+        </div>
       </footer>
 
     <div data-spy="affix" id="dot-nav">
@@ -124,7 +163,7 @@
             <li class="awesome-tooltip" ><a href="#savings"></a></li>
             <li class="awesome-tooltip" ><a href="#locations"></a></li>
         </ul>
-    
+
     </div>
 
 
@@ -136,7 +175,7 @@
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
-       
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
