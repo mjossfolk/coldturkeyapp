@@ -1,3 +1,4 @@
+/*Add dot-nav functionality*/
 $(document).ready(function(){
     $('.awesome-tooltip').tooltip({
         placement: 'left'
@@ -39,7 +40,7 @@ $(document).ready(function(){
         });   
     }
 
-    /* get clicks working */
+    /* get click-function working on dot-nav*/
     $('#dot-nav li').click(function(){
       
         var id = $(this).find('a').attr("href"),
@@ -55,8 +56,8 @@ $(document).ready(function(){
         return false;
     });
 
-/* end dot nav */
-});
+});/* end dot nav */
+
 
 /* Make navbar fade in on scroll*/
 $(document).ready(function(){                    
@@ -67,13 +68,15 @@ $(document).ready(function(){
             $('.navbar').fadeOut(200);
         }
     });
-});
+});/* end of fade in function*/
+
+
 
 /*Scroll back to top on page refresh*/
 $(document).ready(function(){
     $('html').animate({scrollTop:0}, 1);
     $('body').animate({scrollTop:0}, 1);
-});
+});/*end of refresh function*/
 
 
 

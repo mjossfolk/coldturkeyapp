@@ -10,7 +10,7 @@ body, html {
     height: 100%;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, a {
   font-family: "Varela Round", serif;
 }
 
@@ -95,6 +95,7 @@ section {
 
 #locations{
   background-color: #8A63B3;
+  padding: 20px 0 0 0;
 }
 
 footer{
