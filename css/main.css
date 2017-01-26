@@ -43,6 +43,7 @@ h2 {
 .vertical-align {
   display: flex;
   align-items: center;
+  float: none;
 }
 
 #home, #savings{
@@ -92,7 +93,7 @@ h2 {
   background: url("../img/foliage-shot-bg.jpg") no-repeat center;
   background-size: cover;
   background-color: #ccc;
-  padding-top: 90px;
+  padding-top: 50px;
   text-shadow: 1px 1px 3px #222;
 }
 
@@ -105,10 +106,6 @@ h2 {
 
 #locations h2 {
   color: #fff;
-}
-
-.cravings-text {
-  padding-top: 60px;
 }
 
 footer{
