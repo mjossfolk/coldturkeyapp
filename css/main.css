@@ -36,13 +36,8 @@ h2 {
   display: none;
 }
 
-#navbar{
-  padding-top: 10px;
-}
-
-.navbar-brand{
-  color: #1ABC9C;
-  font-size: 30px;
+.logo {
+  padding: 0 0 25px;
 }
 
 .vertical-align {
@@ -52,6 +47,10 @@ h2 {
 
 #home, #savings{
   padding: 90px 0 90px 0;
+}
+
+#home p {
+  padding: 0 0 25px;
 }
 
 
@@ -64,17 +63,18 @@ h2 {
   background-size: cover;
   color: #fff;
   padding: 210px 0 210px 0;
+  text-shadow: 1px 1px 3px #222;
 }
 
 .health-section p {
   font-size: 21px;
   line-height: 1.2;
   padding: 20px 0 0;
-
 }
 
+
 #savings{
-  background-color: #f8f8f8;
+  background-color: #fff;
 }
 
 .media-body p  {
@@ -89,15 +89,26 @@ h2 {
 
 
 #locations{
-  background-color: #8A63B3;
+  background: url("../img/foliage-shot-bg.jpg") no-repeat center;
+  background-size: cover;
+  background-color: #ccc;
   padding-top: 90px;
+  text-shadow: 1px 1px 3px #222;
 }
 
 #locations p {
+  color: #fff;
   font-size: 21px;
   line-height: 1.2;
   padding: 20px 0 0;
+}
 
+#locations h2 {
+  color: #fff;
+}
+
+.cravings-text {
+  padding-top: 60px;
 }
 
 footer{
