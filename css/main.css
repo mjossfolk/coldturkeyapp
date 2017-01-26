@@ -62,6 +62,7 @@ h2 {
 .health-section{
   background: url("../img/health-background.jpg") no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
   color: #fff;
   padding: 210px 0 210px 0;
   text-shadow: 1px 1px 3px #222;
@@ -92,6 +93,7 @@ h2 {
 #locations{
   background: url("../img/foliage-shot-bg.jpg") no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
   background-color: #ccc;
   padding-top: 50px;
   text-shadow: 1px 1px 3px #222;
@@ -165,6 +167,33 @@ footer{
     border-bottom:5px solid transparent;
     border-left:5px solid #1ABC9C;
 }
+
+
+/*Media Queries*/
+
+@media all and (max-width: 599px) and (min-width: 320px) {
+    p{
+      font-size: 23px;
+    }
+
+    .media-body {
+      padding-right: 20px;
+    }
+
+    #home p{
+      padding: 0 20px 0 20px;
+    }
+
+    #locations,#home, #savings {
+      padding: 100px 0 100px 0;
+    }
+
+ 
+}
+
+
+
+
 
 
 
