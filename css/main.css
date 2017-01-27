@@ -176,19 +176,66 @@ footer{
       font-size: 23px;
     }
 
+    h2 {
+      font-size: 32px;
+      padding: 0 0 25px;
+    }
+
+    .vertical-align {
+      display: block ;
+
+    }
+
     .media-body {
       padding-right: 20px;
     }
 
-    #home p, #health p, #locations p{
-      padding: 0 20px 0 20px;
+    #home p, #locations p{
+      padding: 0 20px;
     }
 
-    #locations,#home, #savings {
+    #home p {
+      padding: 0 20px 25px;
+    }
+
+    #home, #savings {
       padding: 140px 0 140px 0;
     }
 
- 
+    #locations {
+      padding: 0 0 120px 0;
+    }
+
+    #health p {
+      padding-bottom: 30px;
+    }
+
+    .locations-mobile {
+      padding-bottom: 25px;
+    }
+
+    #locations h2 {
+      padding-right: 10px;
+    }
+
+    .health-section {
+      background: url("../img/health-background-overlay.jpg") no-repeat center;
+      background-size: cover;
+      /*background-position:-216px 0px;*/
+
+    }
+
+    /*.mobile-overlay {
+      background-color: #000;
+      z-index: 9999;
+      height: 500px;
+      width: 100px;
+    }*/
+
+   /* .health-text {
+      padding-top: 200px;
+    }*/
+
 }
 
 
