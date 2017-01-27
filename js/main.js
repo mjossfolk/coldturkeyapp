@@ -72,12 +72,18 @@ $(document).ready(function(){
 
 
 
-/*Scroll back to top on page refresh*/
-$(document).ready(function(){
-    $('html').animate({scrollTop:0}, 1);
-    $('body').animate({scrollTop:0}, 1);
-});/*end of refresh function*/
+// /*Scroll back to top on page refresh*/
+// $(document).ready(function(){
+//     $('html').animate({scrollTop:0}, 1);
+//     $('body').animate({scrollTop:0}, 1);
+// });/*end of refresh function*/
 
+
+
+// /*Scroll back to top on page refresh*/
+$(window).on('beforeunload', function(){
+    $(window).scrollTop(0);
+});
 
 
 

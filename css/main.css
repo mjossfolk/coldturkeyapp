@@ -180,12 +180,12 @@ footer{
       padding-right: 20px;
     }
 
-    #home p{
+    #home p, #health p, #locations p{
       padding: 0 20px 0 20px;
     }
 
     #locations,#home, #savings {
-      padding: 100px 0 100px 0;
+      padding: 140px 0 140px 0;
     }
 
  
