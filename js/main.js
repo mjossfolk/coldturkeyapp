@@ -46,7 +46,7 @@ $(document).ready(function(){
         var id = $(this).find('a').attr("href"),
           posi,
           ele,
-          padding = -8;
+          padding = -10;
       
         ele = $(id);
         posi = ($(ele).offset()||0).top - padding;
@@ -66,7 +66,7 @@ $(document).ready(function(){
             $('.navbar').fadeIn(200);
         } else {
             $('.navbar').fadeOut(200);
-        }
+        } 
     });
 });/* end of fade in function*/
 

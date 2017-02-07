@@ -110,9 +110,28 @@ h2 {
   color: #fff;
 }
 
+#download{
+  color: #fff;
+  background-color: #1ABC9C;
+  padding: 100px 0;
+}
+
+#download p{
+  padding: 25px 125px;
+}
+
 footer{
   background-color: #F8F8F8;
+  display: block;
+  padding: 50px 0;
+
 }
+
+footer h3{
+  padding-bottom: 25px;
+  color: #1ABC9C;
+}
+
 
 #dot-nav{
   right: 10px;
