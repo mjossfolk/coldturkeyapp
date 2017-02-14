@@ -46,7 +46,7 @@ h2 {
   float: none;
 }
 
-#home, #savings{
+#home, #savings, #comments{
   padding: 90px 0 90px 0;
 }
 
@@ -108,6 +108,25 @@ h2 {
 
 #locations h2 {
   color: #fff;
+}
+
+#comments h2{
+  padding: 0 0 20px;
+}
+
+.stars{
+  color: #F5D76E;
+  font-size: 27px;
+}
+
+#second-row{
+  padding-top: 35px;
+}
+
+.about-comm{
+  font-size: 19px;
+  line-height: 1.2;
+  padding-bottom: 20px;
 }
 
 #download{
