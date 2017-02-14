@@ -46,7 +46,7 @@ $(document).ready(function(){
         var id = $(this).find('a').attr("href"),
           posi,
           ele,
-          padding = -12;
+          padding = -10;
       
         ele = $(id);
         posi = ($(ele).offset()||0).top - padding;
