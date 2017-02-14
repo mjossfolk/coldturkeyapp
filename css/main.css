@@ -288,6 +288,7 @@ footer h3{
     }*/
   }
 
+
   @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
 
     p{
@@ -364,6 +365,8 @@ footer h3{
     }
   }
 
+
+
  @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { 
 
   p{
@@ -384,16 +387,25 @@ footer h3{
       padding-right: 25px;
     }
 
-    #home p, #locations p, #comments p{
-      padding: 0 25px;
-    }
-
-    #home p {
-      padding: 0 20px 25px;
+    #savings p, #locations p, #comments p{
+      padding: 0 30px;
     }
 
     #home{
       padding: 205px 0 205px 0;
+    }
+
+    #home p {
+      padding: 0 30px 25px;
+    }
+
+    #health p {
+      padding-right: 30px;
+      padding-bottom: 30px;
+    }
+
+     .health-section {
+     padding: 275px 0;
     }
 
     #savings{
@@ -405,12 +417,7 @@ footer h3{
     }
 
     #locations {
-      padding: 0 0 150px 0;
-    }
-
-    #health p {
-      padding-right: 25px;
-      padding-bottom: 30px;
+      padding: 0 25px 150px 25px;
     }
 
     .locations-mobile {
@@ -421,24 +428,27 @@ footer h3{
       padding-right: 10px;
     }
 
+    #comments{
+      padding: 100px 30px;
+    }
+
+    #comments h2{
+      padding-bottom: 20px;
+    }
+
     #download{
       padding: 100px 0;
     }
 
     #download p{
-      padding: 25px 40px;
+      padding: 30px 40px;
     }
 
     footer{
       padding: 35px 0;
     }
-
-    .health-section {
-     padding: 275px 0;
- }
-
-
-
+}
+   
 
 
 
