@@ -14,6 +14,13 @@ p {
   font-family: "Open Sans", serif;
 }
 
+a:hover {
+  text-decoration: none;
+  color:#b3b3b3;
+}
+
+
+
 h1 {
   font-size: 40px;
   font-weight: 600;
@@ -146,9 +153,14 @@ footer{
 
 }
 
-footer h3{
+footer h3, a {
   padding-bottom: 25px;
   color: #1ABC9C;
+}
+
+footer a h3:hover{
+  text-decoration: none;
+  color: #b3b3b3;
 }
 
 
@@ -367,7 +379,7 @@ footer h3{
 
 
 
- @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { 
+ @media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
 
   p{
       font-size: 23px;
@@ -448,7 +460,7 @@ footer h3{
       padding: 35px 0;
     }
 }
-   
+
 
 
 
